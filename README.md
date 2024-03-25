@@ -1,79 +1,70 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
-# Getting Started
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+# React Native Boilerplate 
 
-## Step 1: Start the Metro Server
+Welcome to the **React Native Boilerplate**! This comprehensive starter kit is crafted to accelerate the development of your mobile applications, laying a robust foundation for building cross-platform inventory management apps. Enhanced with essential functionalities and pre-configured with an array of development tools, our boilerplate delivers a seamless and productive development journey from inception.
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+## 🚀 Features
 
-To start Metro, run the following command from the _root_ of your React Native project:
+- **Cross-Platform Compatibility:** A turnkey setup for both **iOS and Android**, streamlining development across devices.
+- **State Management:** Incorporates **MobX** for efficient, scalable state management, simplifying state logic.
+- **Internationalization:** Utilizes **i18next** and **react-native language detector** for effortless app localization, making your app globally accessible.
+- **Navigation:** Pre-configured **React Navigation** ensures fluid screen transitions, enhancing user experience.
+- **UI Components:** **React Native Vector Icons** and **React Native Paper** enrich the app’s interface with a comprehensive suite of UI components.
+- **Persistent Storage:** **Async Storage** provides a reliable solution for local data storage, ensuring data persistence.
+- **Safe Area Handling:** **React Native Safe Area Context** adeptly manages device notches and edges, safeguarding UI integrity across devices.
 
-```bash
-# using npm
-npm start
+## 🛠 Installation
 
-# OR using Yarn
-yarn start
-```
+Jumpstart your development with these simple steps:
 
-## Step 2: Start your Application
+1. **Clone this repository** to your local machine.
+   ```bash
+   git clone https://github.com/Bassamnaeem/react-native-boiler-plate
+   ```
+2. **Navigate to the project directory.**
+   ```bash
+   cd inventory_app
+   ```
+3. **Install dependencies.**
+   - Using npm:
+     ```bash
+     npm install
+     ```
+   - Or using Yarn:
+     ```bash
+     yarn install
+     ```
+4. **Start the development server.**
+   - With npm:
+     ```bash
+     npm start
+     ```
+   - Or with Yarn:
+     ```bash
+     yarn start
+     ```
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+## 📱 Running Your App
 
-### For Android
+Launch your app with ease:
 
-```bash
-# using npm
-npm run android
+- **For Android:**
+  - npm:
+    ```bash
+    npm run android
+    ```
+  - Yarn:
+    ```bash
+    yarn android
+    ```
 
-# OR using Yarn
-yarn android
-```
-
-### For iOS
-
-```bash
-# using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
-
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
-
-## Step 3: Modifying your App
-
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+- **For iOS:** *(Requires a macOS environment)*
+  - npm:
+    ```bash
+    npm run ios
+    ```
+  - Yarn:
+    ```bash
+    yarn ios
+    ```
